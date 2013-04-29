@@ -17,3 +17,10 @@ Python 2.7.4 unsupported
 Note that Python 2.7.4 introduced breaking changes to _sre.MAXREPEATS that will
 fail to cross-compile statically. You must use 2.7.3 instead (for now) --
 `build.sh` will download and extract this for you.
+
+Credits
+-------
+
+* The `files/Python-2.7.3-xcompile.patch` file is modified from the patch given by
+Lothsahn on the [Cross Compiling Python for Embedded Linux](http://randomsplat.com/id5-cross-compiling-python-for-embedded-linux.html) post.
+* http://stackoverflow.com/a/1155092 for statically compiling Python interpreter.
