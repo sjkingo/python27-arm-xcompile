@@ -1,2 +1,3 @@
 build.log
-Python-*
+Python-*/
+Python-*.tar.xz
